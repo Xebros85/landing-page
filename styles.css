@@ -71,7 +71,7 @@
 
 p {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 button {
@@ -85,8 +85,7 @@ button {
     font-weight: bold;
 }
 
-.right {
-    border: white solid 1px;
+.right {    
     background-color: gray;
     height: 15vh;
     width: 30vw;
