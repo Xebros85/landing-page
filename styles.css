@@ -75,6 +75,7 @@ p {
 }
 
 button {
+    border: #f9faf8 solid 1px;
     width: 100px;
     height: 25px;
     border-radius: 5px;
@@ -101,42 +102,115 @@ button {
     width: 100vw;
     height: 26vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
 }
 
-.info {
+.info {       
     color: #1f2937;
-    font-size: 36px;
+    height: 48px;
+    font-size: 36px;    
     font-weight: bolder;
+}
+
+.boxes {        
+    height: 10vh;
+    width: 60vw;    
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.blue-box {
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.info-boxes {        
+    height: 5vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.info-box {
+    width: 150px;
 }
 
 .section-quote {
     background-color: #e5e7eb;    
     width: 100vw;
-    height: 22vh;
+    height: 22vh;    
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.quote {
+.quote {      
+    height: 50px;
+    width: 600px;          
     color: #1f2937;
-    font-style: italic;    
     font-size: 36px;
+    font-style: italic;   
     font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    padding-top: 5px;    
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .section-action {        
     width: 100vw;
     height: 22vh;
-    display: flex;
-    justify-content: center;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+        
 }
 
 .action {
-    color: #1f2937;
-    font-style: normal;    
-    font-size: 36px;
-    
+    border: white solid 1px;
+    border: #3882f6;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 100px;
+    width: 70vw;      
+    display: flex; 
+    flex-direction: row;       
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+       
+}
+
+.call {    
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.product {            
+    color: #f9faf8;
+}
+
+.button {  
+    height: 75px;   
+    display: flex;
+    justify-content: center;   
+    align-self: flex-end;    
 }
 
 .footer {
@@ -147,11 +221,11 @@ button {
     height: 5.5vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .foot {
-    color: white;
-    font-style: italic;    
-    font-size: 36px;
-    font-weight: bolder;
+    color: #e5e7eb;        
+    font-size: 14px;
+    font-weight: 100;
 }
